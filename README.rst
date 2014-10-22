@@ -1,6 +1,6 @@
-====================
+=========================
 ploneintranet.attachments
-====================
+=========================
 
 Attachment storage for the Plone intranet suite
 
