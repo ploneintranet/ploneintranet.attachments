@@ -1,3 +1,7 @@
+.. image:: https://api.travis-ci.org/ploneintranet/ploneintranet.attachments.png
+   :alt: Build Status
+   :target: https://travis-ci.org/ploneintranet/ploneintranet.attachments
+
 =========================
 ploneintranet.attachments
 =========================
