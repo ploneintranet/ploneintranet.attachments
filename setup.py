@@ -40,6 +40,7 @@ setup(
         'five.pt',
         'Pillow',
         'Plone',
+        'Products.CMFCore',
         'plone.api',
         'setuptools',
         'z3c.jbot',
