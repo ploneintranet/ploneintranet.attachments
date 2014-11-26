@@ -49,6 +49,7 @@ setup(
         'test': [
             'mock',
             'plone.app.testing',
+            'plone.app.contenttypes[test]',
             'plone.app.discussion',
             'slc.underflow',
             'unittest2',
