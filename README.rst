@@ -42,3 +42,20 @@ To install `ploneintranet.attachments` you simply add ``ploneintranet.attachment
 to the list of eggs in your buildout, run buildout and restart Plone.
 Then, install `ploneintranet.attachments` using the Add-ons control panel.
 
+
+Copyright (c) Plone Foundation
+------------------------------
+
+This package is Copyright (c) Plone Foundation.
+
+Any contribution to this package implies consent and intent to irrevocably transfer all 
+copyrights on the code you contribute, to the `Plone Foundation`_, 
+under the condition that the code remains under a `OSI-approved license`_.
+
+To contribute, you need to have signed a Plone Foundation `contributor agreement`_.
+If you're `listed on Github`_ as a member of the Plone organization, you already signed.
+
+.. _Plone Foundation: https://plone.org/foundation
+.. _OSI-approved license: http://opensource.org/licenses
+.. _contributor agreement: https://plone.org/foundation/contributors-agreement
+.. _listed on Github: https://github.com/orgs/plone/people
