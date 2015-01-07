@@ -1,7 +1,3 @@
-.. image:: https://api.travis-ci.org/ploneintranet/ploneintranet.attachments.png
-   :alt: Build Status
-   :target: https://travis-ci.org/ploneintranet/ploneintranet.attachments
-
 =========================
 ploneintranet.attachments
 =========================
@@ -11,7 +7,23 @@ Attachment storage for the Plone intranet suite
 * `Source code @ GitHub <https://github.com/ploneintranet/ploneintranet.attachments>`_
 * `Releases @ PyPI <http://pypi.python.org/pypi/ploneintranet.attachments>`_
 * `Documentation @ ReadTheDocs <http://ploneintranetattachments.readthedocs.org>`_
-* `Continuous Integration @ Travis-CI <http://travis-ci.org/ploneintranet/ploneintranet.attachments>`_
+
+Build status
+------------
+
+Notification tests
+~~~~~~~~~~~~~~~~~~
+
+.. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Intranet%20Attachments
+    :target: http://jenkins.ploneintranet.net/job/Plone%20Intranet%20Attachments/
+
+Robot tests for Plone Intranet
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Intranet%20Suite%20Master
+    :target: http://jenkins.ploneintranet.net/job/Plone%20Intranet%20Suite%20Master/badge/
+
+
 
 How it works
 ============
