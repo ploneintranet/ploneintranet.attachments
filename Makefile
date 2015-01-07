@@ -37,9 +37,6 @@ bin/python:
 
 tests: .installed.cfg
 	@bin/test
-	@for pt in `find src/ploneintranet/attachments -name "*.pt"` ; do bin/zptlint $$pt; done
-	@for xml in `find src/ploneintranet/attachments -name "*.xml"` ; do bin/zptlint $$xml; done
-	@for zcml in `find src/ploneintranet/attachments -name "*.zcml"` ; do bin/zptlint $$zcml; done
 
 clean:
 	@rm -rf .coverage .installed.cfg .mr.developer.cfg bin docs/html htmlcov parts develop-eggs \
