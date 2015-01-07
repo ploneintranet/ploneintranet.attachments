@@ -37,8 +37,6 @@ bin/python:
 
 tests: .installed.cfg
 	@bin/test
-	@bin/flake8 --ignore=E501 setup.py
-	@bin/flake8 --ignore=E501 src/ploneintranet/attachments
 	@for pt in `find src/ploneintranet/attachments -name "*.pt"` ; do bin/zptlint $$pt; done
 	@for xml in `find src/ploneintranet/attachments -name "*.xml"` ; do bin/zptlint $$xml; done
 	@for zcml in `find src/ploneintranet/attachments -name "*.zcml"` ; do bin/zptlint $$zcml; done
