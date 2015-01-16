@@ -13,3 +13,5 @@ var
 buildout-cache/
 src/slc.stickystatusmessages/
 src/slc.underflow/
+.coverage
+local
